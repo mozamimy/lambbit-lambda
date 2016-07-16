@@ -1,0 +1,31 @@
+{
+  "name": "lambbit-lambda",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mozamimy/lambbit-lambda",
+  "author": {
+    "name": "Moza USANE",
+    "email": "mozamimy@quellencode.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozamimy/lambbit-lambda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mozamimy/lambbit-lambda/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "x.x",
+    "gulp-babel": "x.x",
+    "gulp-load-plugins": "x.x",
+    "babel-preset-es2015": "x.x",
+    "aws-sdk": "x.x"
+  },
+  "peerDependencies": {
+    "aws-sdk": "x.x"
+  },
+  "scripts": {
+    "compile": "gulp compile",
+    "build": "zip -r Lambbit.zip Lambbit.js node_modules"
+  }
+}
